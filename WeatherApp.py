@@ -7,7 +7,7 @@ from PIL import Image,ImageTk
 
 class WeatherApp():
     def __init__(self):
-        self.api="ed548398a5a1bd009de541410e85652e5c"
+        self.api="ed548398a5a1bd009de541410e85652e5c"  #Sample API Key
         self.count=0
         self.load_gui()
         self.root.mainloop()
